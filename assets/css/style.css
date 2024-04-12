@@ -203,3 +203,33 @@
   .footer {
     grid-area: footer;
   }
+  
+  .footer__socials {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    width: 112px;
+    gap: 7px;
+    margin: 20px auto;
+  }
+  
+  .footer__socials img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .footer__socials img:hover {
+    cursor: pointer;
+    opacity: 0.4;
+  }
+  
+  .footer__update {
+    color: white;
+    font-size: 0.5rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: lighter;
+    margin: 5px auto 25px auto;
+    display: flex;
+    justify-content: center;
+  }
+  
